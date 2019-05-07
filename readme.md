@@ -1,4 +1,6 @@
-Fork of `Quartz/wp-graphql-persisted-queries` that implements query locking and settings screen.
+# This fork has been renamed to wp-graphql-lock
+
+Go to <https://github.com/valu-digital/wp-graphql-lock>
 
 # WPGraphQL Persisted Queries
 
@@ -73,7 +75,6 @@ option to true:
 update_option( 'graphql_persisted_queries_locked', true );
 ```
 
-
 You can also control it with the option filter progmatically
 
 ```php
@@ -82,7 +83,7 @@ add_filter( 'option_graphql_persisted_queries_locked', function() {
 }, 10 , 1 );
 ```
 
-## Settings 
+## Settings
 
 There's a settings screen
 
